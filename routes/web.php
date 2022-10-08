@@ -19,8 +19,10 @@ Route::get('admin/logout',[AdminController::class,'logout'])->name('admin.logout
 Route::get('admin/profile/{id}',[AdminController::class,'profile_view'])->name('profile.view');
 Route::POST('general/profile/update/{id}',[AdminController::class,'general_profile_update'])->name('general.profile.update');
 
-//addmember
-Route::get('add/member',[StartGenerationController::class,'add_member'])->name('add.member');
+//First Generation
+Route::get('add/member',[StartGenerationController::class,'create'])->name('add.member');
+Route::post('first_generation/store',[StartGenerationController::class,'store']);
+Route::get('view_first_generation',[StartGenerationController::class,'view_first_generation']);
 
 Route::get('/', function () {
     return view('welcome');

@@ -54,7 +54,7 @@
                 </li>
 
                 <li class="">
-                  <a class="sidenav-item-link" href="contacts.html">
+                  <a class="sidenav-item-link" href="{{ url('view_first_generation') }}">
                     <span class="nav-text">Manage Member</span>
                   </a>
                 </li>
