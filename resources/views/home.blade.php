@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
 
     <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
-
+    <link href="assets/plugins/data-tables/datatables.bootstrap4.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/sleek-dashboard/dist/assets/css/sleek.min.css">
     <!-- PLUGINS CSS STYLE -->
     <link href="{{ asset('backend/assets/plugins/simplebar/simplebar.css') }}" rel="stylesheet" />
     <link href="{{ asset('backend/assets/plugins/nprogress/nprogress.css') }}" rel="stylesheet" />
@@ -132,6 +133,8 @@
     <script src='{{ asset('backend/assets/plugins/daterangepicker/moment.min.js') }}'></script>
     <script src='{{ asset('backend/assets/plugins/daterangepicker/daterangepicker.js') }}'></script>
     <script src='{{ asset('backend/assets/js/date-range.js') }}'></script>
+    <script src="{{ asset('assets/plugins/data-tables/jquery.datatables.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/data-tables/datatables.bootstrap4.min.js') }}"></script>
 
 
 

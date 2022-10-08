@@ -36,4 +36,5 @@ class StartGenerationController extends Controller
         $data = FirstGeneration::orderBy('name','ASC')->get();
         return view('backend.start_generation.index',compact('data'));
     }
+    
 }

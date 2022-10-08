@@ -133,7 +133,15 @@ b,
 strong {
   font-weight: bolder;
 }
+body {
+    background-color: #fff;
+    padding: 20px;
+  }
 
+  .top-information,
+  .bottom-information {
+    padding: 0 20px;
+  }
 small {
   font-size: 80%;
 }
