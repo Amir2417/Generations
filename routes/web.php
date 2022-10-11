@@ -24,6 +24,7 @@ Route::get('add/member',[StartGenerationController::class,'create'])->name('add.
 Route::post('first_generation/store',[StartGenerationController::class,'store']);
 Route::get('view_first_generation',[StartGenerationController::class,'view_first_generation']);
 Route::get('first_generation/edit/{id}',[StartGenerationController::class,'edit']);
+Route::post('first_generation/update/{id}',[StartGenerationController::class,'update']);
 Route::get('first_generation/delete/{id}',[StartGenerationController::class,'delete']);
 
 Route::get('/', function () {

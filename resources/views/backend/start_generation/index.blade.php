@@ -5,8 +5,10 @@
         <div class="col-12">
             <div class="card card-default">
                 <div class="card-header card-header-border-bottom d-flex justify-content-between">
-                    <h2>First Generation</h2>
+                    <h2>First Generation List</h2>
+                    <a href="{{ route('add.member') }}" class="btn btn-primary">Add First Generation</a>
                 </div>
+
                 <div class="card-body">
                     <div class="basic-data-table">
                         <table id="basic-data-table" class="table nowrap"  style="width:100%">
@@ -24,7 +26,13 @@
                                 @foreach ($data as $item)
                                 <tr>
                                     <td>
+                                        @if ($item->photo == null)
+                                        <img class="border border-rounded border-success rounded-circle" src="{{ url('upload/no_image.jpg') }}" width="80px">
+
+                                        @else
                                         <img class="border border-rounded border-success rounded-circle" src="{{ asset($item->photo) }}" width="80px">
+                                        @endif
+
                                     </td>
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->date_of_birth }}</td>
