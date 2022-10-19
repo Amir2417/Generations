@@ -42,7 +42,7 @@
             <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#app"
               aria-expanded="false" aria-controls="app">
               <i class="mdi mdi-pencil-box-multiple"></i>
-              <span class="nav-text">Start</span> <b class="caret"></b>
+              <span class="nav-text">First Generation</span> <b class="caret"></b>
             </a>
 
             <ul class="collapse " id="app" data-parent="#sidebar-menu">
@@ -52,154 +52,32 @@
                     <span class="nav-text">Add Member</span>
                   </a>
                 </li>
-
                 <li class="">
                   <a class="sidenav-item-link" href="{{ url('view_first_generation') }}">
                     <span class="nav-text">Manage Member</span>
                   </a>
                 </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="team.html">
-                    <span class="nav-text">Team</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="calendar.html">
-                    <span class="nav-text">Calendar</span>
-                  </a>
-                </li>
               </div>
             </ul>
           </li>
-
-          <!-- <li class="section-title">
-            UI Elements
-          </li> -->
-
           <li class="has-sub ">
             <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
               aria-expanded="false" aria-controls="components">
               <i class="mdi mdi-folder-multiple-outline"></i>
-              <span class="nav-text">Components</span> <b class="caret"></b>
+              <span class="nav-text">Second Generation</span> <b class="caret"></b>
             </a>
 
             <ul class="collapse " id="components" data-parent="#sidebar-menu">
               <div class="sub-menu">
                 <li class="">
                   <a class="sidenav-item-link" href="alert.html">
-                    <span class="nav-text">Alert</span>
+                    <span class="nav-text">Add Member</span>
                   </a>
                 </li>
 
                 <li class="">
                   <a class="sidenav-item-link" href="badge.html">
-                    <span class="nav-text">Badge</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="breadcrumb.html">
-                    <span class="nav-text">Breadcrumb</span>
-
-                  </a>
-                </li>
-
-                <li class="has-sub ">
-                  <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#buttons"
-                    aria-expanded="false" aria-controls="buttons">
-                    <span class="nav-text">Buttons</span> <b class="caret"></b>
-                  </a>
-
-                  <ul class="collapse " id="buttons">
-                    <div class="sub-menu">
-                      <li class="">
-                        <a href="button-default.html">Button Default</a>
-                      </li>
-
-                     <li class="">
-                        <a href="button-dropdown.html">Button Dropdown</a>
-                      </li>
-
-                     <li class="">
-                        <a href="button-group.html">Button Group</a>
-                      </li>
-
-                     <li class="">
-                        <a href="button-social.html">Button Social</a>
-                      </li>
-
-                     <li class="">
-                        <a href="button-loading.html">Button Loading</a>
-                      </li>
-                    </div>
-                  </ul>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="card.html">
-                    <span class="nav-text">Card</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="carousel.html">
-                    <span class="nav-text">Carousel</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="collapse.html">
-                    <span class="nav-text">Collapse</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="list-group.html">
-                    <span class="nav-text">List Group</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="modal.html">
-                    <span class="nav-text">Modal</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="pagination.html">
-                    <span class="nav-text">Pagination</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="popover-tooltip.html">
-                    <span class="nav-text">Popover & Tooltip</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="progress-bar.html">
-                    <span class="nav-text">Progress Bar</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="spinner.html">
-                    <span class="nav-text">Spinner</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="switcher.html">
-                    <span class="nav-text">Switcher</span>
-                  </a>
-                </li>
-
-                <li class="">
-                  <a class="sidenav-item-link" href="tab.html">
-                    <span class="nav-text">Tab</span>
+                    <span class="nav-text">Manage Member</span>
                   </a>
                 </li>
               </div>
@@ -210,20 +88,20 @@
             <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
               aria-expanded="false" aria-controls="icons">
               <i class="mdi mdi-diamond-stone"></i>
-              <span class="nav-text">Icons</span> <b class="caret"></b>
+              <span class="nav-text">Third Generation</span> <b class="caret"></b>
             </a>
 
             <ul class="collapse " id="icons" data-parent="#sidebar-menu">
               <div class="sub-menu">
                 <li class="">
                   <a class="sidenav-item-link" href="material-icon.html">
-                    <span class="nav-text">Material Icon</span>
+                    <span class="nav-text">Add Member</span>
                   </a>
                 </li>
 
                 <li class="">
                   <a class="sidenav-item-link" href="flag-icon.html">
-                    <span class="nav-text">Flag Icon</span>
+                    <span class="nav-text">Manage Member</span>
                   </a>
                 </li>
               </div>
@@ -565,7 +443,7 @@
         </ul>
       </div>
 
-      <div class="sidebar-footer">
+      {{-- <div class="sidebar-footer">
         <hr class="separator mb-0" />
         <div class="sidebar-footer-content">
           <h6 class="text-uppercase">
@@ -584,6 +462,6 @@
             <div class="progress-bar progress-bar-warning" style="width: 65%;" role="progressbar"></div>
           </div>
         </div>
-      </div>
+      </div> --}}
     </div>
   </aside>
