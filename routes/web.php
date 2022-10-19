@@ -28,7 +28,7 @@ Route::post('first_generation/update/{id}',[StartGenerationController::class,'up
 Route::get('first_generation/delete/{id}',[StartGenerationController::class,'delete']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.index');
 });
 
 Route::middleware([
